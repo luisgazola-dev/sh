@@ -75,7 +75,7 @@ _alp_install(){
         exit 1
     }
     setup-xorg-base
-    apk add vim awesome feh rxvt-unicode lua cairo-gobject pango xrandr dbus udev xf86-video-intel subversion xf86-input-synaptics xf86-video-vesa sudo git firefox dmenu
+    apk add vim awesome feh rxvt-unicode lua cairo-gobject pango xrandr dbus udev xf86-video-intel subversion xf86-input-synaptics xf86-video-intel sudo git firefox dmenu
     apk upgrade --update-cache --available
     apk add --no-cache shadow
 }
